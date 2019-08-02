@@ -1,0 +1,224 @@
+/* custom for about section */
+@media (min-width: 0px )and (max-width: 992px) {
+    
+    /*  About  */
+    .section-about .row .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    .section-about {
+        padding: 40px 0;    
+    }
+    .about-box:first-child {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .profile-img {
+        height: 500px;
+        width: auto;
+    }
+    .about-box:last-child {
+        padding: 0 5%;
+        margin-top: 0px;
+    }
+
+}
+@media (min-width: 0px )and (max-width: 767px) {
+    .section-work h2:after,
+    .section-contact h2:after {
+        display: block;
+        height: 2px;
+        background-color: #333;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    .contact-box { text-align: center; }
+    .contact-box h3 {
+        font-size: 170%;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 5px 0;
+    }
+    .contact-box p {
+        letter-spacing: 1px;
+        line-height: 145%;
+        font-size: 130%;
+    }
+    .contact-box .blank {
+        display: none;
+    }
+    .contact-box i {
+        font-size: 240%;
+    }
+
+}
+
+/* Big tablets to 1200px (widths smaller than the 1140px row ) */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+    .hero-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+
+    .contact-box h3 {
+        font-size: 95%;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 5px 0;
+    }
+    .contact-box p {
+        letter-spacing: 1px;
+        line-height: 145%;
+        font-size: 85%;
+    }
+    .contact-box i {
+        font-size: 240%;
+    }
+    
+}
+
+
+/* Small phones and tablets form 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+    h1 { font-size: 180%; }
+    .section-skill h2, 
+    .section-work h2,
+    .section-contact h2 { 
+        font-size: 150%; 
+    }
+    
+    .section-skill h3,
+    .section-work h3 {
+        font-size: 95%;
+    }
+    
+    .work-box {
+        width: 100%;
+    }
+	.hero-box {
+		margin-top: 20px;
+	}
+    .hero-box h1 {
+        font-size: 190%;
+    }
+    .social-links { margin-top: 10px; }
+    
+
+    /*  mobile nav  */
+    nav  {
+        background-color: rgba(51, 51, 51, 0.95);
+        padding-bottom: 15px;
+    }
+    .main-nav { display: none; }
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        margin-top: 70px;
+    	float: none;
+		text-align: center;
+	}
+    .logo {
+        margin-top: 20px;
+    }
+    .main-nav li:last-of-type {
+        margin-right: 20px;
+    }
+    /*  sticky nav  */
+    .sticky .main-nav {
+        text-align: center;
+        float: none;
+        margin-top: 70px; 
+    }
+    .sticky .main-nav li:last-of-type {
+        margin-right: 0;   
+    }
+    .sticky .main-nav a:link,
+    .sticky .main-nav li a:visited { padding: 8px 0; }
+    .sticky .mobile-nav-icon { margin-top: 20px; }
+    .sticky .logo {
+        margin-top: 20px ;
+        margin-bottom: 0px;
+    }
+}    
+
+
+/* Small Devices from 0px to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 16px; }
+    section { padding: 20px 0; }
+    
+    .hero-box h1{
+        font-size: 140%;    
+    }
+    
+    .social-links { margin-top: 5px; }
+    
+	.main-nav {
+		margin-top: 25px;
+		text-align: center;
+		float: right;
+	}
+    .main-nav li:last-of-type {
+        margin-right: 0px;
+    }
+    .about-box .about-list {
+        font-size: 125%;
+    }
+    .about-box .about-list li {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/*
+@media (min-width: 0px ) and (max-width: 574px) {
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .hero-box {
+        margin-top: 55px;
+    }
+    .hero-box h3 {
+        margin-bottom: 30px;
+    }
+}
+*/
+
+
+@media (min-width: 0px ) and (max-width: 383px) {
+    .main-nav li:first-of-type {
+        margin-left: 20px;
+    }
+    .main-nav li {
+        margin-right: 10px;    
+    }
+/*
+    .hero-box {
+        margin-top: 50px;
+    }
+*/
+}
